@@ -1,0 +1,99 @@
+body {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-left: 160px;
+    margin-right: 160px;
+    border-radius: 5px;
+    color: white;
+    width: auto;
+  }
+
+  
+h1, h3, h2 {
+    margin: 10px 0;
+  }
+
+h5 {
+    color: grey;
+    margin: 10px 0;
+}
+  
+  button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #ff4757;
+  }
+  
+  button:active {
+    background-color: #e63946;
+  }
+  
+  img {
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    height: 370px;
+    border: solid white;
+    border-radius: 10px;
+  }
+  
+  .character-list-label {
+    font-size: 24px;
+    color: #ff6b6b;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff6b6b;
+    padding-bottom: 10px;
+  }
+  
+  .character-box {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .character-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .character-card {
+    padding: 20px;
+    width: 650px;
+  }
+  
+  .character-title {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .show {
+    display: flex;
+    justify-content: right;
+  }
+  
+  .character-image {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
